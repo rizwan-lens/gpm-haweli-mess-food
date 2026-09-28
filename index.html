@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5efe6">
+  <meta name="description" content="GPM Haweli Mess - weekly mess menu and daily meal timings.">
+  <title>GPM Haweli Mess | Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-image"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="eyebrow">GPM • DAILY MESS MENU</span>
+      <h1>GPM Haweli<br><em>Mess</em></h1>
+      <p>Simple food. Warm vibes. A menu that feels like home.</p>
+      <a class="scroll-btn" href="#today">Today's Menu ↓</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="today" class="today-section section">
+      <div class="section-heading">
+        <span class="eyebrow">RIGHT NOW</span>
+        <h2 id="todayTitle">Today's Menu</h2>
+        <p id="todayDate"></p>
+      </div>
+
+      <div class="today-card">
+        <div class="today-top">
+          <div>
+            <span class="today-badge">TODAY</span>
+            <h3 id="todayDay">Monday</h3>
+          </div>
+          <div class="fee-pill">₹3,000 <small>/ month</small></div>
+        </div>
+
+        <div class="meal-grid" id="todayMeals"></div>
+
+        <div class="snack-note">
+          <span>☕</span>
+          <div><strong>Evening Snack</strong><br>Samosa • 5:00 PM – 6:00 PM • <b>₹10 extra</b></div>
+        </div>
+      </div>
+
+      <a class="whatsapp" id="whatsappBtn" href="#" target="_blank" rel="noopener">
+        <span class="wa-icon">◉</span>
+        <span><b>Mess WhatsApp</b><small>Ask about food, timing & details</small></span>
+        <span class="arrow">↗</span>
+      </a>
+      <p class="edit-note">WhatsApp number website code ke <b>script.js</b> me ek baar add kar dena.</p>
+    </section>
+
+    <section class="section week-section">
+      <div class="section-heading">
+        <span class="eyebrow">7 DAYS</span>
+        <h2>Weekly Menu</h2>
+        <p>Tap any day to see the full menu.</p>
+      </div>
+      <div class="week-list" id="weekList"></div>
+    </section>
+
+    <section class="section info-section">
+      <div class="info-card">
+        <span class="eyebrow">GOOD TO KNOW</span>
+        <h2>Mess Details</h2>
+        <div class="details">
+          <div><span>💳</span><p><b>Monthly Fee</b><br>₹3,000 / month</p></div>
+          <div><span>🥟</span><p><b>Evening Samosa</b><br>5:00 PM – 6:00 PM • ₹10 extra</p></div>
+          <div><span>🍽️</span><p><b>Meal Timings</b><br>Breakfast 9–10 AM • Lunch 1–2 PM • Dinner 8–9 PM</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="creator">
+        <img src="assets/rizwan.jpg" alt="Rizwan">
+        <div>
+          <span>HOSTING BY</span>
+          <strong>Rizwan</strong>
+          <a href="https://www.instagram.com/rizwan_lens?stkn=YW02MmhnZWVzcG11" target="_blank" rel="noopener">@rizwan_lens ↗</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 GPM Haweli Mess</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
